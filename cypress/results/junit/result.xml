@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2020-08-19T06:38:28" tests="0" file="cypress\integration\secondTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test log out" timestamp="2020-08-19T06:38:28" tests="1" time="6.8460" failures="1">
+  
+  <testcase name="Test log out verify logging out" time="6.8460" classname="verify logging out">
+    
+    <failure message="Timed out retrying: expected &apos;&lt;ul.nav.navbar-nav.pull-xs-right&gt;&apos; to contain &apos;Sign in1&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected '<ul.nav.navbar-nav.pull-xs-right>' to contain 'Sign in1'
+    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\integration\secondTest.spec.js:9:58)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2020-08-19T06:38:07" tests="0" file="cypress\integration\firstAPITest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test with backend" timestamp="2020-08-19T06:38:07" tests="5" time="18.5220" failures="0">
+  
+  <testcase name="Test with backend should log in" time="4.4190" classname="should log in"></testcase>
+  
+  <testcase name="Test with backend verify correct request and response from API" time="4.5710" classname="verify correct request and response from API"></testcase>
+  
+  <testcase name="Test with backend should give tags with routing object" time="2.0430" classname="should give tags with routing object"></testcase>
+  
+  <testcase name="Test with backend verify global feed likes count" time="1.9550" classname="verify global feed likes count"></testcase>
+  
+  <testcase name="Test with backend deleting a new article in the Global Feed" time="5.5340" classname="deleting a new article in the Global Feed"></testcase>
+  
+</testsuite>
+
+</testsuites>

@@ -1,0 +1,24 @@
+{
+    "baseUrl": "http://localhost:4200",
+    "ignoreTestFiles": "**/examples/*",
+    "viewportHeight": 768,
+    "viewportWidth": 1024,
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+        "reporterOptions": {
+          "configFile": "reporter-config.json"
+    },
+    "env": {
+        
+        "username": "vod.kanokers@jake.com",
+        "password": "test123test",
+        "apiURL": "https://conduit.productionready.io/"
+    },
+
+    "retries": {
+        "runMode": 2,
+        "openMode": 1
+    }
+    
+}
+

@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-08-19T06:38:28.262Z",
+    "end": "2020-08-19T06:38:50.361Z",
+    "duration": 22099,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d495a3cd-55c9-4739-b1a1-b2ad93115e95",
+      "title": "",
+      "fullFile": "cypress\\integration\\secondTest.spec.js",
+      "file": "cypress\\integration\\secondTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9f19ab71-6447-439f-983c-b07ad17f84a8",
+          "title": "Test log out",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify logging out",
+              "fullTitle": "Test log out verify logging out",
+              "timedOut": null,
+              "duration": 7033,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Settings').click();\ncy.contains(' Or click here to logout').click();\ncy.get('[class=\"nav navbar-nav pull-xs-right\"]').should('contain', \"Sign in1\");",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<ul.nav.navbar-nav.pull-xs-right>' to contain 'Sign in1'",
+                "estack": "AssertionError: Timed out retrying: expected '<ul.nav.navbar-nav.pull-xs-right>' to contain 'Sign in1'\n    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress\\integration\\secondTest.spec.js:9:58)",
+                "diff": null
+              },
+              "uuid": "cdc34e38-97fc-4b5f-8f8e-af544d031e78",
+              "parentUUID": "9f19ab71-6447-439f-983c-b07ad17f84a8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "cdc34e38-97fc-4b5f-8f8e-af544d031e78"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 7033,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

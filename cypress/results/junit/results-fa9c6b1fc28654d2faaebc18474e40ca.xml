@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.0900" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-12-21T23:48:00" tests="0" file="cypress\integration\secondTest.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test log out" timestamp="2020-12-21T23:48:00" tests="1" time="7.0900" failures="1">
+    <testcase name="Test log out verify logging out" time="7.0900" classname="verify logging out">
+      <failure message="EPERM: operation not permitted, open &apos;C:\Users\amaqu\Documents\GitHub\angular-realworld-example-app\cypress\screenshots\secondTest.spec.js\Test log out -- verify logging out (failed) (attempt 3).png&apos;" type="Error"><![CDATA[Error: EPERM: operation not permitted, open 'C:\Users\amaqu\Documents\GitHub\angular-realworld-example-app\cypress\screenshots\secondTest.spec.js\Test log out -- verify logging out (failed) (attempt 3).png'
+
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
